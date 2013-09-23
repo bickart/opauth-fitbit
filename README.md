@@ -41,3 +41,5 @@ License
 ---------
 Opauth-Fitbit is MIT Licensed
 Copyright © Jeff Bickart (http://neposystems.com)
+
+[1]: https://github.com/uzyn/opauth
