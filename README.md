@@ -16,7 +16,7 @@ Getting started
    - Enter your domain at JavaScript API Domain
    - There is no need to enter OAuth Redirect URL
 
-3. Configure Opauth-Fitbit strategy with at least `qpi_key` and `secret_key`.
+3. Configure Opauth-Fitbit strategy with `consumer_key` and `consumer_secret`.
 
 4. Direct user to `http://path_to_opauth/fitbit` to authenticate
 
@@ -27,8 +27,8 @@ Required parameters:
 ```php
 <?php
 'Fitbit' => array(
-    'api_key' => 'YOUR API KEY',
-    'secret_key' => 'YOUR SECRET KEY'
+    'consumer_key' => 'YOUR API KEY',
+    'consumer_secret' => 'YOUR SECRET KEY'
 ),
 ```
 
